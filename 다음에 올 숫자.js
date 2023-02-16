@@ -1,15 +1,10 @@
 function solution(common) {
     var answer = 0;
-    var lastNum = common[common.length - 1]; 
-    var lastNumPrev = common[common.length - 2];
-    var lastNumPrevPrev = common[common.length - 3];
+    var n1 = common[common.length - 1]; 
+    var n2 = common[common.length - 2];
+    var n3 = common[common.length - 3];
 
-    if((lastNum - lastNumPrev) == (lastNumPrev - lastNumPrevPrev)){
-        answer = lastNum + (lastNum - lastNumPrev)
-    }else {
-        answer = lastNum * (lastNum / lastNumPrev);
-    }
-
+    answer = (n1 - n2) == (n2 - n3) ? n1 + (n1 - n2) : n1 * (n1 / n2);
     return answer;
 }
 
