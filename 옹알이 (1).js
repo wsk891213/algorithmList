@@ -8,7 +8,3 @@ function solution(babbling) {
 
     return answer;
 }
-
-var babbling = ["ayaye", "uuuma", "ye", "yemawoo", "ayaa"];
-
-console.log(solution(babbling));
