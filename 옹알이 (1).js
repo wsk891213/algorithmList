@@ -1,8 +1,8 @@
 function solution(babbling) {
-    var answer = 0;
-
-
-
+    var answer = 10;
     
+    
+
+
     return answer;
 }
