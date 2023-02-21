@@ -1,4 +1,5 @@
 console.log(12345.6789<<0)
+console.log(12345.6789>>0)
 console.log(~~12345.6789)
 console.log(Math.trunc(12345.6789))
 console.log(Math.floor(12345.6789))
